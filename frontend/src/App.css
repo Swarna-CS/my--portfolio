@@ -1,0 +1,29 @@
+
+
+
+.profile_img {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  animation: profile__animate 8s ease-in-out infinite 1s;
+
+
+}
+
+
+
+@keyframes profile__animate {
+  0% {
+      border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+  }
+  50% {
+      border-radius: 30% 60% 70% 40%/50% 60% 30% 60%;
+  }
+  100% {
+      border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+  }
+}
+
+/* styles.css */
+.custom-cursor {
+  cursor: url("data:image/svg+xml, %3Csvg xmlns='http://www.w3.org/2000/svg' width='34' height='34' viewBox='0 0 24 24'%3E %3Cg fill='none' stroke='%23FFF' stroke-width='1'%3E %3Ccircle cx='12' cy='12' r='8.5'%3E%3C/circle%3E %3Cpath d='M1 12h5M18 12h5M12 6V1.04M12 23v-4.96M11.95 11.95h.1v.1h-.1z'%3E%3C/path%3E %3C/g%3E %3C/svg%3E") 12 12, auto;
+}
+
